@@ -1,1 +1,37 @@
+// Використовуючи цей масив,
+// var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+
+// 1. Видаліть "Banana" з масиву
+
+delete array[0];  
+
+
+// 2. Додайте "Kiwi" в кінець масиву
+
+array.push("Kiwi");
+
+// 3. Видаліть "Oranges" з масиву
+
+delete array[2];
+
+
+// 4. Відсортуйте масив у зворотньому порядку
+// тобто масив ['a', 'c', 'b'] стає ['b', 'c', 'a'])
+
+
+console.log(array);
+        array.reverse();
+        console.log(array);
+
+В результаті має вийти:
+['Kiwi', 'Blueberries', 'Apples']
+
+// використовуючи цей масив,
+// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// напишіть код, який виводить "Oranges" в console
+
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+console.log(array2[1][1][0])
+
 
